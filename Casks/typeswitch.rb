@@ -12,15 +12,12 @@ cask "typeswitch" do
   
     app "TypeSwitch.app"
   
-    caveats do
-      unsigned_app
-      <<~EOS
-        TypeSwitch is currently unsigned. You'll need to:
-        1. Right-click the app and select "Open"
-        2. Click "Open" in the dialog that appears
-        3. Go to System Settings > Privacy & Security and approve the app
-      EOS
-    end
+    caveats <<~EOS
+      TypeSwitch is currently unsigned. You'll need to:
+      1. Right-click the app and select "Open"
+      2. Click "Open" in the dialog that appears
+      3. Go to System Settings > Privacy & Security and approve the app
+    EOS
   
     zap trash: [
       "~/Library/Application Support/TypeSwitch",
