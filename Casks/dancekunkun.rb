@@ -1,10 +1,10 @@
 cask "dancekunkun" do
   version "0.1.0"
-  sha256 "a16dff7e3f247e48b61dedbdb948a895831fa9303b26c91cb5c16c722ec4a4b9"
+  sha256 "8176281860556a9f79ebdadbd2473d9ae9a042d4a62b5d7abf2c1e88e956a67e"
 
   url "https://github.com/ygsgdbd/DanceKunKun/releases/download/v#{version}/DanceKunKun.dmg"
   name "DanceKunKun"
-  desc "把会跳舞的坤坤放到你的 macOS 菜单栏"
+  desc "A fun macOS menu bar app featuring a dancing Cai Xukun that grooves to your CPU usage"
   homepage "https://github.com/ygsgdbd/DanceKunKun"
 
   auto_updates false
@@ -17,4 +17,4 @@ cask "dancekunkun" do
     "~/Library/Preferences/top.ygsgdbd.DanceKunKun.plist",
     "~/Library/Caches/top.ygsgdbd.DanceKunKun"
   ]
-end 
+end
