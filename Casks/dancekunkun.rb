@@ -1,6 +1,6 @@
 cask "dancekunkun" do
-  version "0.1.0"
-  sha256 "8176281860556a9f79ebdadbd2473d9ae9a042d4a62b5d7abf2c1e88e956a67e"
+  version "0.1.1"
+  sha256 "fde035a49e863291e43fdf364e9928f2344f022ea9338a927e9b23f600409996"
 
   url "https://github.com/ygsgdbd/DanceKunKun/releases/download/v#{version}/DanceKunKun.dmg"
   name "DanceKunKun"
