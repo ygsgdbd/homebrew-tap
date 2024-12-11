@@ -1,6 +1,6 @@
 cask "typeswitch" do
-  version "0.3.1"
-  sha256 "81c7e0d4641af59a146d8104784284570ab287826165180e1c7e32975419da65"
+  version "0.3.2"
+  sha256 "497349c5ecba03f6c06e598a09fd82ce563343987d04e6ccf2acf14e049b36a3"
 
   url "https://github.com/ygsgdbd/TypeSwitch/releases/download/v#{version}/TypeSwitch.dmg"
   name "TypeSwitch"
