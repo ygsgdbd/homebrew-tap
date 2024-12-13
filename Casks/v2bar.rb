@@ -2,7 +2,7 @@ cask "v2bar" do
   version "0.1.0"
   sha256 "4dbb47e554929ca97843e81b94a5ead22b98a239bb92265240eb498737b62723"
 
-  url "https://github.com/ygsgdbd/V2Bar/releases/download/v#{version}/V2Bar.dmg"
+  url "https://github.com/ygsgdbd/V2Bar/releases/download/v#{version}/V2Bar-v#{version}.dmg"
   name "V2Bar"
   desc "V2Bar 是一个简洁优雅的 macOS 菜单栏应用，为你提供快捷的 V2EX 访问体验。"
   homepage "https://github.com/ygsgdbd/V2Bar"
