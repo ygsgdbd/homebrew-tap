@@ -1,6 +1,6 @@
 cask "vastwords" do
   version "0.1.0"
-  sha256 "319a3debad9eb9ec3596705dfb9609ab7d3c28bd76613a33989fd754e67aebb8"
+  sha256 "e537d9b713019366b8a10f4afd37a4d66739c434a6e419f74f41802ff1e15a41"
 
   url "https://github.com/ygsgdbd/VastWords/releases/download/v#{version}/VastWords.dmg"
   name "VastWords"
