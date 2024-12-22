@@ -4,13 +4,19 @@ cask "vast-words" do
 
   url "https://github.com/ygsgdbd/VastWords/releases/download/v#{version}/VastWords.dmg"
   name "VastWords"
-  desc "A macOS menu bar tool for learning English words"
   homepage "https://github.com/ygsgdbd/VastWords"
 
   auto_updates false
   depends_on macos: ">= :ventura"
 
   app "VastWords.app"
+
+  caveats <<~EOS
+    VastWords is currently unsigned. You'll need to:
+    1. Right-click the app and select "Open"
+    2. Click "Open" in the dialog that appears
+    3. Go to System Settings > Privacy & Security and approve the app
+  EOS
 
   zap trash: [
     "~/Library/Application Support/VastWords",

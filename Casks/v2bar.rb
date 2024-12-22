@@ -4,7 +4,6 @@ cask "v2bar" do
 
   url "https://github.com/ygsgdbd/V2Bar/releases/download/v#{version}/V2Bar-v#{version}.dmg"
   name "V2Bar"
-  desc "V2Bar 是一个简洁优雅的 macOS 菜单栏应用，为你提供快捷的 V2EX 访问体验。"
   homepage "https://github.com/ygsgdbd/V2Bar"
 
   auto_updates false

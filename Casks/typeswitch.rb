@@ -4,7 +4,6 @@ cask "typeswitch" do
 
   url "https://github.com/ygsgdbd/TypeSwitch/releases/download/v#{version}/TypeSwitch.dmg"
   name "TypeSwitch"
-  desc "Automatic input method switcher for different applications"
   homepage "https://github.com/ygsgdbd/TypeSwitch"
 
   auto_updates false
