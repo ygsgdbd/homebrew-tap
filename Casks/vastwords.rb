@@ -1,4 +1,4 @@
-cask "vast-words" do
+cask "vastwords" do
   version "0.1.0"
   sha256 "5797b7799059b5fdec29e86bfa1a497eb46a041fb263a7c2aa67b599655f26cf"
 
