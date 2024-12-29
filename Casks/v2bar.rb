@@ -1,8 +1,8 @@
 cask "v2bar" do
-  version "0.1.0"
-  sha256 "4dbb47e554929ca97843e81b94a5ead22b98a239bb92265240eb498737b62723"
+  version "0.1.1"
+  sha256 "f0c245424dc5ed4311954e2c2c62b02aba85d635f17cd960545b63a033ec5baa"
 
-  url "https://github.com/ygsgdbd/V2Bar/releases/download/v#{version}/V2Bar-v#{version}.dmg"
+  url "https://github.com/ygsgdbd/V2Bar/releases/download/v#{version}/V2Bar.dmg"
   name "V2Bar"
   homepage "https://github.com/ygsgdbd/V2Bar"
 
