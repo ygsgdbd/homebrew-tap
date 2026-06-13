@@ -7,7 +7,7 @@ cask "dancekunkun" do
   homepage "https://github.com/ygsgdbd/DanceKunKun"
 
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "DanceKunKun.app"
 

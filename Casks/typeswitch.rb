@@ -20,7 +20,7 @@ cask "typeswitch" do
   homepage "https://github.com/ygsgdbd/TypeSwitch"
 
   auto_updates false
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "TypeSwitch.app"
 

@@ -7,7 +7,7 @@ cask "v2bar" do
   homepage "https://github.com/ygsgdbd/V2Bar"
 
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "V2Bar.app"
 
