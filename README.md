@@ -10,6 +10,7 @@ brew tap ygsgdbd/tap
 
 # Install apps
 brew install --cask typeswitch
+brew install --cask listenbar
 brew install --cask vastwords
 brew install --cask dancekunkun
 brew install --cask v2bar
@@ -19,6 +20,7 @@ brew install --cask v2bar
 
 - [`typeswitch`](https://github.com/ygsgdbd/TypeSwitch): Automatic input method switcher for macOS
   - Languages: `en`, `zh`, `zh-TW` (English, 简体中文, 繁體中文)
+- [`listenbar`](https://github.com/ygsgdbd/ListenBar): macOS menu bar utility for viewing local listening ports
 - [`vastwords`](https://github.com/ygsgdbd/VastWords): A vocabulary learning tool for macOS
 - [`dancekunkun`](https://github.com/ygsgdbd/DanceKunKun): A menu bar app featuring a dancing figure that grooves to CPU usage
 - [`v2bar`](https://github.com/ygsgdbd/V2Bar): A menu bar app for managing V2Ray
