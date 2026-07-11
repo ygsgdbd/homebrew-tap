@@ -1,6 +1,6 @@
 cask "typeswitch" do
-  version "0.6.0"
-  sha256 "23bd77e0e9db643edda9484faace2822a08749d5436bd05366349a8fe699fc49"
+  version "0.7.0"
+  sha256 "b2b782f6db83b7b8d9d044374db401b2326ba208b4f79dab9f17a3dc89fcffe2"
 
   language "zh", default: true do
     "zh"
@@ -14,7 +14,7 @@ cask "typeswitch" do
     "en"
   end
 
-  url "https://github.com/ygsgdbd/TypeSwitch/releases/download/v0.6.0/TypeSwitch-macOS-universal.zip"
+  url "https://github.com/ygsgdbd/TypeSwitch/releases/download/v0.7.0/TypeSwitch-macOS-universal.zip"
   name "TypeSwitch"
   desc "Automatic input method switcher for macOS"
   homepage "https://github.com/ygsgdbd/TypeSwitch"
