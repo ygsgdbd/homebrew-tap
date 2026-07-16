@@ -1,8 +1,8 @@
 cask "listenbar" do
-  version "0.3.0"
-  sha256 "2cc3328729722b24c1631c7cd9637318503524d69b3aa13e8f265c4bc629915e"
+  version "0.4.0"
+  sha256 "f2f55b605a531908256ee5f54adcc798e95538e9d2fa5dc84eba8cb908ca5975"
 
-  url "https://github.com/ygsgdbd/ListenBar/releases/download/v0.3.0/ListenBar-macOS-universal.zip"
+  url "https://github.com/ygsgdbd/ListenBar/releases/download/v0.4.0/ListenBar-macOS-universal.zip"
   name "ListenBar"
   desc "macOS menu bar utility for viewing local listening ports"
   homepage "https://github.com/ygsgdbd/ListenBar"
