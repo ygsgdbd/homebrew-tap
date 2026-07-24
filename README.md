@@ -27,12 +27,6 @@ brew install --cask v2bar
 
 ## Note
 
-All apps are currently unsigned. After installation, you need to trust them manually:
-1. Right-click the app and select "Open"
-2. Click "Open" in the dialog that appears
-3. Go to System Settings > Privacy & Security and approve the app
+All apps are currently unsigned and not notarized. Their Homebrew casks remove the app's quarantine attribute after installation so the app can launch directly. This does not mean Apple or Gatekeeper verified the app. Manual downloads may still require right-clicking the app and selecting "Open". Only install an app if you trust its project and publisher.
 
-所有应用目前均未签名。安装后需要手动信任：
-1. 右键点击应用，选择“打开”
-2. 在弹出的对话框中再次点击“打开”
-3. 前往“系统设置”>“隐私与安全性”中允许该应用
+所有应用目前均未签名或公证。对应的 Homebrew cask 会在安装后移除应用的隔离属性，使其可以直接启动。这不代表 Apple 或 Gatekeeper 已验证应用。手动下载的版本仍可能需要右键点击应用并选择“打开”。请仅在信任对应项目和发布者时安装。
