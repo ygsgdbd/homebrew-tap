@@ -12,19 +12,12 @@ cask "listenbar" do
 
   app "ListenBar.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", appdir/"ListenBar.app"]
+  end
+
   uninstall quit: "top.ygsgdbd.ListenBar"
-
-  caveats <<~EOS
-    ListenBar is currently unsigned. You need to trust it manually:
-    1. Right-click the app and select "Open"
-    2. Click "Open" in the dialog that appears
-    3. Go to System Settings > Privacy & Security and approve the app
-
-    ListenBar 目前未签名，需要手动信任：
-    1. 右键点击应用，选择“打开”
-    2. 在弹出的对话框中再次点击“打开”
-    3. 前往“系统设置”>“隐私与安全性”中允许该应用
-  EOS
 
   zap trash: [
     "~/Library/Application Support/top.ygsgdbd.ListenBar",
@@ -32,4 +25,14 @@ cask "listenbar" do
     "~/Library/Preferences/top.ygsgdbd.ListenBar.plist",
     "~/Library/Caches/top.ygsgdbd.ListenBar",
   ]
+
+  caveats <<~EOS
+    This Homebrew cask removed ListenBar's quarantine attribute after installation, so it can launch directly.
+    ListenBar is still not signed with an Apple Developer ID or notarized. This does not mean Apple or Gatekeeper verified it.
+    Manual downloads may still require right-clicking the app and selecting "Open". Only install it if you trust the project and publisher.
+
+    此 Homebrew cask 安装后已移除 ListenBar 的隔离属性，因此可以直接启动。
+    ListenBar 仍未使用 Apple Developer ID 签名或经过公证，这不代表 Apple 或 Gatekeeper 已验证该应用。
+    手动下载的版本仍可能需要右键点击应用并选择“打开”。请仅在信任项目和发布者时安装。
+  EOS
 end
