@@ -1,13 +1,13 @@
 cask "v2bar" do
-  version "0.1.1"
-  sha256 "f0c245424dc5ed4311954e2c2c62b02aba85d635f17cd960545b63a033ec5baa"
+  version "0.2.0"
+  sha256 "aec13a34451e9cd782396c6517628edd6523145257073bd78577fc5a02d866b3"
 
-  url "https://github.com/ygsgdbd/V2Bar/releases/download/v#{version}/V2Bar.dmg"
+  url "https://github.com/ygsgdbd/V2Bar/releases/download/v0.2.0/V2Bar-macOS-universal.zip"
   name "V2Bar"
   homepage "https://github.com/ygsgdbd/V2Bar"
 
   auto_updates false
-  depends_on macos: :ventura
+  depends_on macos: :sonoma
 
   app "V2Bar.app"
 
