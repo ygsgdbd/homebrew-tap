@@ -11,9 +11,9 @@ cask "dancekunkun" do
 
   app "DanceKunKun.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", appdir/"DanceKunKun.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/DanceKunKun.app"]
   end
 
   zap trash: [
