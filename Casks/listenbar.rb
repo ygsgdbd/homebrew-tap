@@ -12,9 +12,9 @@ cask "listenbar" do
 
   app "ListenBar.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", appdir/"ListenBar.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/ListenBar.app"]
   end
 
   uninstall quit: "top.ygsgdbd.ListenBar"

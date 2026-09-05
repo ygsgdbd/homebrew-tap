@@ -24,9 +24,9 @@ cask "typeswitch" do
 
   app "TypeSwitch.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", appdir/"TypeSwitch.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/TypeSwitch.app"]
   end
 
   uninstall launchctl: "top.ygsgdbd.TypeSwitch",
